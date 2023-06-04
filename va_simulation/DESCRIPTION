@@ -1,0 +1,14 @@
+Package: va.simulation
+Type: Package
+Title: Simulation of random variables
+Version: 1.0.0
+Authors@R: c(person("Florent", "Bordas", email = "florent.bordas@etu.u-paris.fr", role = c("aut")),
+            person("Ryan", "Timeus", email = "ryan.timeus@etu.u-paris.fr", role = c("aut", "cre")))
+Maintainer: The package maintainer <ryan.timeus@etu.u-paris.fr>
+Description: This package allows to simulate discrete 
+             random variables from coin tosses.
+License: GPL-3
+Encoding: UTF-8
+LazyData: false
+RoxygenNote: 7.2.3
+Imports: R6, tictoc, collections, graphics, stats
